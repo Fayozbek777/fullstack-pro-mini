@@ -1,8 +1,6 @@
 # 🏛️ Dwello — Платформа элитной недвижимости
 
-[![React](https://shields.io)](https://react.dev)
-[![FastAPI](https://shields.io)](https://tiangolo.com)
-[![Gemini](https://shields.io)](https://deepmind.google)
+**[ ⚛️ React 19 ]** &nbsp;&nbsp; **[ ⚡ FastAPI ]**
 
 Современный премиальный маркетплейс недвижимости со встроенной системой безопасной аутентификации.
 
