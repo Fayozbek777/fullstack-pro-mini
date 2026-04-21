@@ -1,29 +1,45 @@
 # 🏛️ Dwello — Платформа элитной недвижимости
 
-Современный маркетплейс недвижимости с аутентификацией
+[![React](https://shields.io)](https://react.dev)
+[![FastAPI](https://shields.io)](https://tiangolo.com)
+[![Gemini](https://shields.io)](https://deepmind.google)
 
-**Примечание:** Архитектура и Логика backend’а и основная логика были разработаны с использованием **Gemini AI**, что позволило обеспечить высокую производительность и безопасные RESTful-стандарты.
+Современный премиальный маркетплейс недвижимости со встроенной системой безопасной аутентификации.
+
+> 🤖 **Примечание по разработке:** Архитектура, основные алгоритмы и логика бэкенда были спроектированы при поддержке **Google Gemini AI**. Это позволило достичь высокой скорости разработки, отличной производительности и строгого следования стандартам безопасности RESTful API.
 
 ---
 
 ## ✨ Технологический стек
 
-**Frontend:** React 19, Vite, Tailwind CSS, Framer Motion, AOS
-**Backend:** Python, FastAPI, SQLAlchemy, JWT (Jose), Passlib
-**AI интеграция:** Backend с использованием Google Gemini (AI-логика и безопасность)
-**База данных:** SQLite (через SQLAlchemy ORM)
-**UI и иконки:** Lucide React, Glassmorphism дизайн
+| Слой            | Используемые технологии                                        |
+| :-------------- | :------------------------------------------------------------- |
+| **Frontend**    | `React 19` • `Vite` • `Tailwind CSS` • `Framer Motion` • `AOS` |
+| **Backend**     | `Python` • `FastAPI` • `SQLAlchemy` • `JWT (Jose)` • `Passlib` |
+| **База данных** | `SQLite` (через мощную абстракцию SQLAlchemy ORM)              |
+| **UI / UX**     | Стеклянный дизайн (`Glassmorphism`) • Иконки `Lucide React`    |
 
 ---
 
-## 📸 Превью
+## 📸 Превью интерфейса
 
-<img src="public/screen-image1.png" width="45%">
-<img src="public/screen-image2.png" width="45%">
+Для идеального отображения скриншоты объединены в аккуратную адаптивную сетку:
 
-<img src="public/screen-image3.png" width="45%">
-<img src="public/screen-image4.png" width="45%">
+<div align="center">
+  <table border="0">
+    <tr>
+      <td><img src="screenshot/screen-image1.png" alt="Превью 1" width="100%"></td>
+      <td><img src="screenshot/screen-image2.png" alt="Превью 2" width="100%"></td>
+    </tr>
+    <tr>
+      <td><img src="screenshot/screen-image3.png" alt="Превью 3" width="100%"></td>
+      <td><img src="screenshot/screen-image4.png" alt="Превью 4" width="100%"></td>
+    </tr>
+  </table>
+</div>
 
 ---
 
-💡 _Чистый код. Премиальный дизайн. Поддержка AI._
+<div align="center">
+  💎 <i>Чистый код. Премиальный дизайн. Поддержка AI.</i>
+</div>
