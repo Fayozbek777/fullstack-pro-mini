@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-cream: #fef7f2;
+  --color-brand-sand: #ddc7bb;
+  --color-brand-coffee: #2b1b12;
+}
+
+@layer base {
+  html {
+    font-size: 16px;
+    background-color: var(--color-brand-cream);
+    color: var(--color-brand-coffee);
+  }
+
+  h1 {
+    font-size: clamp(2.5rem, 6vw, 5rem);
+    font-weight: 700;
+    line-height: 1.1;
+    @apply text-brand-coffee;
+  }
+
+  h6 {
+    font-size: clamp(1rem, 1.2vw, 1.25rem);
+    font-weight: 700;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--color-brand-coffee);
+  }
+
+  p {
+    font-size: clamp(1rem, 1.1vw, 1.125rem);
+    line-height: 1.7;
+    @apply text-brand-coffee/80;
+  }
+}
